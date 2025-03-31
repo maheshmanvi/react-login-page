@@ -1,0 +1,187 @@
+/* Full-page styling */
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* App Bar */
+.app-bar {
+    width: 100%;
+    background-color: #0b2b4a;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.app-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.app-title {
+    margin: 0;
+}
+
+/* Subscription warning */
+.subscription-warning {
+    width: 100%;
+    background-color: #f5a623;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.login-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Title and subtitle */
+.login-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+.input-label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.required {
+    color: red;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+}
+
+/* Password input container */
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+/* Password input container */
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+/* Remember me checkbox */
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #007bff;
+}
+
+/* Buttons */
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.create-account-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* Light color divider */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+/* Text for registration */
+.register-text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Version text */
+.version-text {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
